@@ -1,5 +1,6 @@
-from . import fnc
 from __future__ import annotations
+
+from . import fnc
 
 class TestTrace:
 
