@@ -79,7 +79,7 @@ class Test:
         self.exp_err = (code, stderr)
         return self
 
-    def cmd_line(self, instr: str) -> Test:
+    def cmd_line(self, instr: list[str]) -> Test:
         self.__insl = instr
         return self
     
